@@ -1,0 +1,11 @@
+.Student {
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    width: 300px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.Student p {
+    margin: 0;
+}
