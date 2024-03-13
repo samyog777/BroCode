@@ -1,0 +1,21 @@
+.login {
+    background-color: hsla(120, 70%, 22%, 0.603);
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logout {
+    background-color: hsla(14, 94%, 52%, 0.842);
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+}
