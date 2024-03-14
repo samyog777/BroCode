@@ -5,6 +5,10 @@ import Login from "./login/login.jsx";
 import List from "./list.jsx";
 import ListObject from "./listObject.jsx";
 import ObjectList from "./listObjectParents.jsx";
+import Button1 from "./button.jsx";
+import ProfilePic from "./ProfilePic.jsx";
+import MyComponents from "./myComponents.jsx";
+import RealTimeUpdate from "./realTImeUpdate.jsx";
 
 function App() {
   const fruits = [
@@ -27,6 +31,7 @@ function App() {
       <Login isLogin={true} />
       <Login />
       <hr />
+      <Button1 />
       <Card />
       <Card />
       <Card />
@@ -38,11 +43,12 @@ function App() {
       <hr />
       <hr />
       {fruits.length > 0 ? (
-        <ObjectList items={fruits} />
+        <ObjectList items={fruits} category="Fruits" />
       ) : null}
       {Vegatible.length > 0 ? (
         <ObjectList items={Vegatible} category="Vegatible" />
       ) : null}
+      <hr />
       <Student name="Samyog" age={18} isStudent={true} />
       <Student name="Sam" age={5} isStudent={false} />
       <Student name="Flask" age={20} isStudent={false} />
@@ -52,6 +58,11 @@ function App() {
       {/* Error Because Of The String insted of number in age */}
       <List />
       <ListObject />
+      <ProfilePic />
+      <MyComponents />
+      <hr />
+      <hr />
+      <RealTimeUpdate />
     </>
   );
 }

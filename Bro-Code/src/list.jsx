@@ -1,7 +1,7 @@
 function List() {
   const list = ["Hello", "Hi", "Hey", "Whatsup"];
   list.sort(); // To sort array using alphabet
-  const ListItems = list.map((list) => <li>{list}</li>);
+  const ListItems = list.map((list) => <li key={list}>{list}</li>);
   return <ul>{ListItems}</ul>;
 }
 
