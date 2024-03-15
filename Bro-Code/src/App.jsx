@@ -10,6 +10,7 @@ import ProfilePic from "./ProfilePic.jsx";
 import MyComponents from "./myComponents.jsx";
 import RealTimeUpdate from "./realTImeUpdate.jsx";
 import ColorPicker from "./colorPicker.jsx";
+import SetObject from "./setObject.jsx";
 
 function App() {
   const fruits = [
@@ -65,6 +66,7 @@ function App() {
       <hr />
       <RealTimeUpdate />
       <ColorPicker />
+      <SetObject />
     </>
   );
 }
