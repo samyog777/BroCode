@@ -9,6 +9,7 @@ import Button1 from "./button.jsx";
 import ProfilePic from "./ProfilePic.jsx";
 import MyComponents from "./myComponents.jsx";
 import RealTimeUpdate from "./realTImeUpdate.jsx";
+import ColorPicker from "./colorPicker.jsx";
 
 function App() {
   const fruits = [
@@ -63,6 +64,7 @@ function App() {
       <hr />
       <hr />
       <RealTimeUpdate />
+      <ColorPicker />
     </>
   );
 }

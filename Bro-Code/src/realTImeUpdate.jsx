@@ -1,10 +1,10 @@
 import react, { useState } from "react";
 
 function RealTimeUpdate() {
-  const [Name, setName] = useState("");
-  const [Number, setNumber] = useState("");
+  const [Name, setName] = useState("Guest");
+  const [Number, setNumber] = useState("1");
   const [Text, setText] = useState("");
-  const [Option, setOption] = useState("");
+  const [Option, setOption] = useState("Creditcard");
   const [Shipping, setShipping] = useState("Delivery");
 
   function Changing(event) {
@@ -21,9 +21,6 @@ function RealTimeUpdate() {
   }
   function Shop(event) {
     setShipping(event.target.value);
-  }
-  function Eventt(e) {
-    console.log(e);
   }
   return (
     <>
@@ -71,7 +68,6 @@ function RealTimeUpdate() {
         Pick Up
       </label>
       <p>Shipping: {Shipping}</p>
-      <h1 onClick={Eventt}>Hello</h1>
     </>
   );
 }

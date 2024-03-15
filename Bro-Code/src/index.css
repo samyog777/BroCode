@@ -93,3 +93,46 @@
   border: 10px dotted blue;
   cursor: pointer;
 }
+
+.Color-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(180, 33%, 75%);
+}
+
+.H1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Display-Color {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 2px solid black;
+  transition: 0.25s ease;
+}
+
+.Display-Color p {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LABEL {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  border-radius: 10px;
+  border: 5px solid hsl(192, 86%, 32%);
+}
