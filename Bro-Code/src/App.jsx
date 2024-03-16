@@ -11,6 +11,9 @@ import MyComponents from "./myComponents.jsx";
 import RealTimeUpdate from "./realTImeUpdate.jsx";
 import ColorPicker from "./colorPicker.jsx";
 import SetObject from "./setObject.jsx";
+import Todo from "./todo.jsx";
+import UpdaterObject from "./updaterObject.jsx";
+import Loding from "./loding.jsx";
 
 function App() {
   const fruits = [
@@ -67,6 +70,11 @@ function App() {
       <RealTimeUpdate />
       <ColorPicker />
       <SetObject />
+      <Todo />
+      <UpdaterObject />
+      <hr />
+      <hr />
+      <Loding />
     </>
   );
 }

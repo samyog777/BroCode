@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import react,{ useState } from "react";
 
 function SetObject() {
   const [car, setCar] = useState({ name: "Rolls", class: "S", year: 2023 });
