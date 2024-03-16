@@ -1,0 +1,81 @@
+.MainDiv {
+    background-color: hsl(0, 32%, 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MainDiv h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.input {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.AddTask {
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.AddTask:hover {
+    opacity: 0.75;
+    transition: opacity 0.5s ease;
+}
+
+.MainDiv ol li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(177, 177, 177);
+    margin: 20px;
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.MainDiv ol li button {
+    height: 20px;
+    margin: 5px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.MainDiv .delete {
+    background-color: red;
+}
+
+.MainDiv .up {
+    background-color: green;
+}
+
+.MainDiv .down {
+    background-color: orange;
+}
+
+.MainDiv ol li button:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+}

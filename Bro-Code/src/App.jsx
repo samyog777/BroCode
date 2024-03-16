@@ -14,6 +14,8 @@ import SetObject from "./setObject.jsx";
 import Todo from "./todo.jsx";
 import UpdaterObject from "./updaterObject.jsx";
 import Loding from "./loding.jsx";
+import TodoList from "./Todo/Todo.jsx";
+import UseEffect from "./useEffect.jsx";
 
 function App() {
   const fruits = [
@@ -74,7 +76,9 @@ function App() {
       <UpdaterObject />
       <hr />
       <hr />
-      <Loding />
+      {/* <Loding /> */}
+      <TodoList />
+      <UseEffect />
     </>
   );
 }
