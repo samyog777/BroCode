@@ -6,6 +6,10 @@ function UseEffect() {
 
   useEffect(() => {
     document.title = `count: ${count} ${color}`;
+
+    return () => {
+      // CleanUp Code
+    };
   }, [count, color]);
 
   function AddCount() {
@@ -17,7 +21,7 @@ function UseEffect() {
   }
 
   function ChangeColor() {
-    setColor(c => c=== "black" ? "red": "black");
+    setColor((c) => (c === "black" ? "red" : "black"));
   }
 
   return (
