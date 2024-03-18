@@ -17,6 +17,8 @@ import Loding from "./loding.jsx";
 import TodoList from "./Todo/Todo.jsx";
 import UseEffect from "./useEffect.jsx";
 import UseEffect2 from "./useEffect2.jsx";
+import ComponentA from "./ComponentA.jsx";
+import UseRef from "./useRef.jsx";
 
 function App() {
   const fruits = [
@@ -82,6 +84,10 @@ function App() {
       <UseEffect />
       <hr /> <hr />
       <UseEffect2 />
+      <hr /> <hr />
+      <ComponentA />
+      <hr /> <hr />
+      <UseRef />
     </>
   );
 }

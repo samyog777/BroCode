@@ -273,3 +273,9 @@ input[type="color"] {
   left: 0;
   top: 0;
 }
+
+.USESTATE {
+  border: 2px solid black;
+  padding: 20px;
+  width: 50%;
+}
