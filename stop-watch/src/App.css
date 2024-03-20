@@ -1,0 +1,64 @@
+body {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.Main-div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 100px;
+  padding: 30px;
+  height: 300px;
+}
+
+.Time {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 20px 10px 20px black;
+  padding-bottom: 50px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  background-color: orange;
+}
